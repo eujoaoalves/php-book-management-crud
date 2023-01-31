@@ -26,7 +26,7 @@ Este projeto tem como objetivo criar uma aplicação de gerenciamento de livros 
 >Para instalar o projeto, siga os seguintes passos:
 
 1. Clone o repositório
-2. Execute o script de criação do banco de dados (disponível na raiz do projeto)
+2. Execute o script de criação do banco de dados (disponível em app/config/)
 3. Acesse o arquivo init.php e informe as credenciais de acesso ao banco de dados
 4. Acesse a aplicação através do seu navegador
 
