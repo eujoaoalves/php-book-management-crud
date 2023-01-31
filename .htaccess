@@ -1,0 +1,11 @@
+RewriteEngine On
+
+# RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [QSA,L]
+php_value include_path "./usr/share/php:/opt/lampp/htdocs/library-php-crud/*"
+<IfModule mod_headers.c>  
+  Header unset Server  
+  Header unset X-Powered-By  
+</IfModule>
